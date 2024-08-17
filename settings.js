@@ -8,10 +8,10 @@ function convertToBool(text, fault = 'true') {
 global.thumb = fs.readFileSync('./lib/bugs/venom.jpg')
 const BOTNAME = 'VAJIRA-MD|-WA-BOT™';
 const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
-global.owner = process.env.OWNER_NUMBER  || '94701992015' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '2349022346884' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || ' ' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=vEUFDRRR#F2nqAPGXmqp_iAPiyubkoPAX93IqpTl_4thnxl51VJk ' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
@@ -28,7 +28,7 @@ AUTO_TYPING:  process.env.AUTO_TYPING  || false  ,
 AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
 AUTO_READ:  process.env.AUTO_READ  || false  ,
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,       
-ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
+ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || true  ,
 WORK_TYPE: process.env.WORK_TYPE || 'private' ,
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
 HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME,        
@@ -42,7 +42,7 @@ ANTI_CALL: process.env.ANTI_CALL || false  ,
 ALIVE: process.env.ALIVE || `default`,     
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
-AUTO_STICKER: process.env.AUTO_STICKER || false  ,
+AUTO_STICKER: process.env.AUTO_STICKER || true  ,
 WELCOME:  process.env.WELCOME  || false ,
 ANTI_DELETE : process.env.ANTI_DELETE || false ,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
